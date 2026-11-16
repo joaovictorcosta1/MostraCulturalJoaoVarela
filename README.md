@@ -1,4 +1,3 @@
-[README (2).md](https://github.com/user-attachments/files/34913567/README.2.md)
 # Atividade Prática em Python — Calculadora de Média Escolar
 
 ## Descrição
@@ -70,4 +69,4 @@ atividade-python-pratica/
 
 ## Autor
 
-Seu Nome — [GitHub](https://github.com/SEU-USUARIO)
+João Victor da Costa Varela
