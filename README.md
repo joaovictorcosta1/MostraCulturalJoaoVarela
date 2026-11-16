@@ -1,31 +1,38 @@
-Atividade Prática em Python — Calculadora de Média Escolar
-Descrição
+[README (2).md](https://github.com/user-attachments/files/34913567/README.2.md)
+# Atividade Prática em Python — Calculadora de Média Escolar
 
-Programa de linha de comando que recebe as notas de um aluno, calcula a média aritmética e informa a situação final: Aprovado, Recuperação ou Reprovado.
+## Descrição
 
-Objetivo
+Programa de linha de comando que recebe as notas de um aluno, calcula a média aritmética e informa a situação final: **Aprovado**, **Recuperação** ou **Reprovado**.
+
+## Objetivo
 
 Praticar conceitos básicos de Python:
 
-Entrada e saída de dados (input / print)
-Funções
-Estruturas condicionais (if, elif)
-Laços de repetição (while, for)
-Listas e compreensão de listas
-Tratamento de erros (try / except)
-Como funciona
-O programa pede o nome do aluno e a quantidade de notas.
-Cada nota é validada (deve ser um número entre 0 e 10).
-A média é calculada e a situação é definida pelas regras abaixo:
-Média	Situação
-≥ 7,0	Aprovado
-≥ 5,0 e < 7,0	Recuperação
-< 5,0	Reprovado
-Como executar
+- Entrada e saída de dados (`input` / `print`)
+- Funções
+- Estruturas condicionais (`if`, `elif`)
+- Laços de repetição (`while`, `for`)
+- Listas e compreensão de listas
+- Tratamento de erros (`try` / `except`)
 
-Requisito: Python 3.8 ou superior.
+## Como funciona
 
-bash
+1. O programa pede o nome do aluno e a quantidade de notas.
+2. Cada nota é validada (deve ser um número entre 0 e 10).
+3. A média é calculada e a situação é definida pelas regras abaixo:
+
+| Média        | Situação    |
+|--------------|-------------|
+| ≥ 7,0        | Aprovado    |
+| ≥ 5,0 e < 7,0 | Recuperação |
+| < 5,0        | Reprovado   |
+
+## Como executar
+
+**Requisito:** Python 3.8 ou superior.
+
+```bash
 # 1. Clone o repositório
 git clone https://github.com/SEU-USUARIO/SEU-REPOSITORIO.git
 
@@ -34,8 +41,11 @@ cd SEU-REPOSITORIO/atividade-python-pratica
 
 # 3. Execute o script
 python script.py
-Exemplo de uso
-text
+```
+
+## Exemplo de uso
+
+```text
 === Calculadora de Média Escolar ===
 Nome do aluno: Maria
 Quantidade de notas: 3
@@ -48,8 +58,16 @@ Aluno: Maria
 Notas: [8.0, 6.5, 7.0]
 Média: 7.17
 Situação: Aprovado
-Estrutura da pasta
-text
+```
+
+## Estrutura da pasta
+
+```text
 atividade-python-pratica/
 ├── README.md
 └── script.py
+```
+
+## Autor
+
+Seu Nome — [GitHub](https://github.com/SEU-USUARIO)
